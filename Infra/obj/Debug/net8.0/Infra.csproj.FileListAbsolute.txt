@@ -1,0 +1,17 @@
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\Infra.csproj.AssemblyReference.cache
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\Infra.AssemblyInfoInputs.cache
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\Infra.AssemblyInfo.cs
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\Infra.csproj.CoreCompileInputs.cache
+D:\Dev\backend\poc-dapper\Infra\bin\Debug\net8.0\Infra.deps.json
+D:\Dev\backend\poc-dapper\Infra\bin\Debug\net8.0\Infra.dll
+D:\Dev\backend\poc-dapper\Infra\bin\Debug\net8.0\Infra.pdb
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\Infra.csproj.Up2Date
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\Infra.dll
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\refint\Infra.dll
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\Infra.pdb
+D:\Dev\backend\poc-dapper\Infra\obj\Debug\net8.0\ref\Infra.dll
+D:\Dev\backend\poc-dapper\Infra\bin\Debug\net8.0\Application.dll
+D:\Dev\backend\poc-dapper\Infra\bin\Debug\net8.0\Models.dll
+D:\Dev\backend\poc-dapper\Infra\bin\Debug\net8.0\Application.pdb
+D:\Dev\backend\poc-dapper\Infra\bin\Debug\net8.0\Models.pdb

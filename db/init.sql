@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS persons (
+	pers_id UUID PRIMARY KEY,
+	pers_name VARCHAR(50) NOT NULL,
+	pers_years INT NOT NULL,
+	pers_creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)

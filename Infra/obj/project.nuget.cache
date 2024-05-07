@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "uNOPLApag7H7yZAEM7t95efIdyjXBBeytUXNQHou3xtezDb3M9D7ErRC6RexrP7XwYZqimndoQZOLw91hn2PeQ==",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dev1\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-preview.3.24172.9\\microsoft.extensions.primitives.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
