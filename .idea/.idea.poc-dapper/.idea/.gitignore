@@ -15,3 +15,8 @@
 /dataSources/
 /dataSources.local.xml
 
+# Ignorar arquivos de debug e release
+**/bin/
+**/obj/
+
+

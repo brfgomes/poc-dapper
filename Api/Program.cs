@@ -1,3 +1,4 @@
+using Application.Factories;
 using Application.Repositories;
 using Infra.Factory;
 using Infra.Repositories;
@@ -5,6 +6,8 @@ using Infra.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<SqlFactory>();
 builder.Services.AddTransient<IPersonRepository, PersonRepository>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddTransient<IRepositoriesFactory, RepositoriesFactory>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
