@@ -1,6 +1,6 @@
 using Application.Repositories;
 using Infra.Factory;
-using Infra.Repository;
+using Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<SqlFactory>();

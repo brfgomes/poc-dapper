@@ -17,4 +17,8 @@
       <ProjectReference Include="..\Models\Models.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Requests\GetPerson.cs" />
+    </ItemGroup>
+
 </Project>

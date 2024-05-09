@@ -4,7 +4,7 @@ namespace Infra.Queries;
 
 public static class PersonQueries
 {
-    private static readonly string table = Map.ContextMapping.GetPersonsTable();
+    private static readonly string table = "persons";
     public static QueryModel GetPersonsQuery()
     {
         var sql = @$"

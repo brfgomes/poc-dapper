@@ -1,5 +1,7 @@
 ﻿using Application.DTOs;
 using Application.Repositories;
+using Application.Requests;
+using Application.UseCases.Person;
 using Microsoft.AspNetCore.Mvc;
 using Models.Domain;
 
@@ -8,30 +10,30 @@ namespace Api.Controllers;
 public class PersonController : ControllerBase
 {
     [HttpGet("GetPersons")]
-    public async Task<IEnumerable<PersonDTO>> GetUsers(
-        [FromServices] IPersonRepository repository)
+    public async Task<IActionResult> GetUsers(
+        [FromServices] IPersonRepository personRepository)
     {
-        var result = await repository.GetPersons();
-        return result;
+        var result = await GetPersonsUseCase.Execute(personRepository);
+        return Ok(result);
     }
     
     [HttpGet("GetPerson/{idPerson}")]
-    public async Task<PersonDTO> GetUsers(
-        [FromServices] IPersonRepository repository,
+    public async Task<IActionResult> GetUsers(
+        [FromServices] IPersonRepository personRepository,
         string idPerson
         )
     {
-        var result = await repository.GetPerson(idPerson);
-        return result;
+        var result = await GetPersonUseCase.Execute(personRepository, new GetPersonRequest(idPerson));
+        return Ok(result);
     }
     
     [HttpPost("CreatePerson")]
-    public async Task<string> GetUsers(
+    public async Task<IActionResult> GetUsers(
         [FromServices] IPersonRepository repository,
-        [FromBody] PersonModel personModel
+        [FromBody] CreatePersonRequest request
     )
     {
-        var result = await repository.CreatePerson(personModel);
-        return result;
+        var result = await CreatePersonUseCase.Execute(repository, request);
+        return Ok(result);
     }
 }

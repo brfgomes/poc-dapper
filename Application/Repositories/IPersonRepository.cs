@@ -7,5 +7,5 @@ public interface IPersonRepository
 {
     Task<IEnumerable<PersonDTO>> GetPersons();
     Task<PersonDTO> GetPerson(string idPerson);
-    Task<string> CreatePerson(PersonModel person);
+    Task<PersonModel> CreatePerson(PersonModel person);
 }

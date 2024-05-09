@@ -6,7 +6,7 @@ using Models.Domain;
 using Dapper;
 using Infra.Queries;
 
-namespace Infra.Repository;
+namespace Infra.Repositories;
 
 public class PersonRepository(SqlFactory factory) : IPersonRepository
 {
@@ -25,10 +25,10 @@ public class PersonRepository(SqlFactory factory) : IPersonRepository
         return person;
     }
 
-    public async Task<string> CreatePerson(PersonModel person)
+    public async Task<PersonModel> CreatePerson(PersonModel person)
     {
         var query = PersonQueries.InsertPerson(person);
         var result = await _connection.ExecuteAsync(query.Query, query.Parameters);
-        return (result > 0) ? "Pessoa criada com sucesso!" : "Erro ao criar pessoa";
+        return (result > 0) ? person : null;
     }
 }
