@@ -43,3 +43,4 @@ D:\Dev\backend\poc-dapper\Api\bin\Debug\net8.0\Application.pdb
 D:\Dev\backend\poc-dapper\Api\bin\Debug\net8.0\Infra.pdb
 D:\Dev\backend\poc-dapper\Api\bin\Debug\net8.0\Models.pdb
 D:\Dev\backend\poc-dapper\Api\obj\Debug\net8.0\Api.sourcelink.json
+D:\Dev\backend\poc-dapper\Api\bin\Debug\net8.0\Flunt.dll

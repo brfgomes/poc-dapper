@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SBd/yitwv9zUwfjh/NayDif9RUEDlxTuVtGXU+fa8aI5irQKHW8di+lXoH9myNukN2RtItqqrVA4sPb/PVK9TQ==",
+  "dgSpecHash": "IRbGuWdphHkLauQYYxq5LtZ6i51q4yqvaVWJert2UA5QpkfdiJT9qdpfx+BTwFukYD+ID5xG1eekuihnsNxpiA==",
   "success": true,
   "projectFilePath": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dev1\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -12,6 +12,6 @@ public static class GetPersonsUseCase
         //validacoes aqui
         var isSuccess = true;
         var getPersonsResult = await personRepository.GetPersons();
-        return new GenericResponse<IEnumerable<PersonDTO>>(isSuccess, getPersonsResult);
+        return new GenericResponse<IEnumerable<PersonDTO>>(isSuccess, getPersonsResult, null);
     }
 }

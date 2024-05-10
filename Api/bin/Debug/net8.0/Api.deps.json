@@ -26,6 +26,14 @@
           }
         }
       },
+      "Flunt/2.0.5": {
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {
+            "assemblyVersion": "2.0.5.0",
+            "fileVersion": "2.0.5.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/8.0.4": {
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -134,6 +142,7 @@
       },
       "Application/1.0.0": {
         "dependencies": {
+          "Flunt": "2.0.5",
           "Models": "1.0.0"
         },
         "runtime": {
@@ -152,6 +161,9 @@
         }
       },
       "Models/1.0.0": {
+        "dependencies": {
+          "Flunt": "2.0.5"
+        },
         "runtime": {
           "Models.dll": {}
         }
@@ -170,6 +182,13 @@
       "sha512": "sha512-YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
       "path": "dapper/2.1.35",
       "hashPath": "dapper.2.1.35.nupkg.sha512"
+    },
+    "Flunt/2.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
+      "path": "flunt/2.0.5",
+      "hashPath": "flunt.2.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/8.0.4": {
       "type": "package",
