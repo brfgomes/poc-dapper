@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "inGKIwRKKcg1JXpGtykFJlQEe02W9lfN6cVVlMG/dRREoBZUhGlVPercFmSiseYn/BYOAS+lam6e3LNmngTMHw==",
+  "dgSpecHash": "4m1/rUlmaMOAih3grW56YJVz5WxYeEtfwDOF7zr7j/m3XqWBXviCWYK2QmekgtQV7Q9q74IUWNJ9CmqlrL7Fpg==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\backend\\poc-dapper\\Api\\Api.csproj",
+  "projectFilePath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dev1\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.9.0.0-preview.3.24172.9.nupkg.sha512",

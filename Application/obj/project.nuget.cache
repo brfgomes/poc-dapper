@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tsNSUP7bZ7NCvTsbY28c8R4FDdKcbc0JqFyWO8xiVUIzZ6YM/VUpX0nKKFajSKmfJHYK7a5MTrBWNauwUjFzbQ==",
+  "dgSpecHash": "QKhNGpg+rfDM22PuwjHY5j0xGA8WlziPAzSauPuzBhWEPlxxMqNRwy/agSyCXeXAGCSEApTMgB6tpcQdkKo/ow==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj",
+  "projectFilePath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dev1\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+    "C:\\Users\\dev1\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HvzP2b8mhyICLHyXqXl+9LrE67ea5Xz21aQ/Z1yhSSG03dCVguug7aX2mij07tSj3/m4VbrF55XGm9wFYh8oZg==",
+  "dgSpecHash": "iukXg96sw+SqbYVxm9N3Nr1rwGRbw8SVc6qiNOFVpkulW28wAQnYhznHHr+ORpEoqtylLUQ8o2v1k3sYPAQeHw==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj",
+  "projectFilePath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dev1\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.9.0.0-preview.3.24172.9.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

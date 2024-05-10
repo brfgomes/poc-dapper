@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\backend\\poc-dapper\\Api\\Api.csproj": {}
+    "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Api\\Api.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\backend\\poc-dapper\\Api\\Api.csproj": {
+    "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper\\Api\\Api.csproj",
+        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "D:\\Dev\\backend\\poc-dapper\\Api\\Api.csproj",
+        "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\backend\\poc-dapper\\Api\\obj\\",
+        "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Application\\Application.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Application\\Application.csproj"
               },
-              "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Infra\\Infra.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Infra\\Infra.csproj"
               },
-              "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Models\\Models.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Models\\Models.csproj"
               }
             }
           }
@@ -53,6 +53,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -85,14 +89,14 @@
         }
       }
     },
-    "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj": {
+    "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj",
+        "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\backend\\poc-dapper\\Application\\obj\\",
+        "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -107,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Models\\Models.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Models\\Models.csproj"
               }
             }
           }
@@ -131,6 +135,10 @@
             "Flunt": {
               "target": "Package",
               "version": "[2.0.5, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
             }
           },
           "imports": [
@@ -153,14 +161,14 @@
         }
       }
     },
-    "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj": {
+    "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj",
+        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj",
+        "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\backend\\poc-dapper\\Infra\\obj\\",
+        "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -175,8 +183,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Application\\Application.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Application\\Application.csproj"
               }
             }
           }
@@ -229,14 +237,14 @@
         }
       }
     },
-    "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj": {
+    "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj",
+        "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\backend\\poc-dapper\\Models\\obj\\",
+        "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt-mediator\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
