@@ -1,3 +1,5 @@
-﻿namespace Application.DTOs;
+﻿using Models.Domain.Enums;
 
-public record PersonDTO(Guid Id, string Name, int Years, string Email, string Cnpj, DateTime CreationDate);
+namespace Application.DTOs;
+
+public record PersonDTO(Guid Id, EStatus Status, string Name, int Years, string Email, string Cnpj, DateTime CreationDate);

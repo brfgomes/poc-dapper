@@ -162,6 +162,7 @@
       },
       "Models/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.35",
           "Flunt": "2.0.5"
         },
         "runtime": {

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Dapper/2.1.35": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Flunt/2.0.5": {
         "type": "package",
         "compile": {
@@ -14,6 +27,27 @@
     }
   },
   "libraries": {
+    "Dapper/2.1.35": {
+      "sha512": "YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
+      "type": "package",
+      "path": "dapper/2.1.35",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.35.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/net7.0/Dapper.dll",
+        "lib/net7.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
     "Flunt/2.0.5": {
       "sha512": "CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
       "type": "package",
@@ -30,6 +64,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Dapper >= 2.1.35",
       "Flunt >= 2.0.5"
     ]
   },
@@ -39,11 +74,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj",
+      "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\backend\\poc-dapper\\Models\\obj\\",
+      "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -75,6 +110,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.35, )"
+          },
           "Flunt": {
             "target": "Package",
             "version": "[2.0.5, )"

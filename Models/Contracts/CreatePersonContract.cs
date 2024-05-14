@@ -17,9 +17,10 @@ public class CreatePersonContract : Contract<PersonModel>
             .IsLowerThan(person.Years, 150, "Idade", "Idade não pode ser superior a 150")
 
             .IsNotNullOrEmpty(person.Email, "Email", "Nome não pode ser vazio ou nulo")
-            .IsEmail(person.Email, "Email", "Email inválido")
+            .IsEmail(person.Email, "Email", "Email inválido");
 
-            .IsNotNullOrEmpty(person.Cnpj, "Cnpj", "Cnpj não pode ser vazio ou nulo")
-            .IsFalse(!Regex.IsMatch(person.Cnpj, @"^\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}$"), "CNPJ", "O CNPJ não é válido.");
+        //.IsNotNullOrEmpty(person.Cnpj, "Cnpj", "Cnpj não pode ser vazio ou nulo")
+        //.IsTrue(person.Cnpj.Trim().Length == 14, "CNPJ", "O CNPJ deve ter exatamente 14 caracteres.")
+        //.IsTrue(ValidateCNPJ(person.Cnpj), "CNPJ", "O CNPJ não é válido.");
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HvzP2b8mhyICLHyXqXl+9LrE67ea5Xz21aQ/Z1yhSSG03dCVguug7aX2mij07tSj3/m4VbrF55XGm9wFYh8oZg==",
+  "dgSpecHash": "K39HEffx+bqdLgIkAwG1yyPPjEl7FoYCUDohkIZ2DiNU82na2IJnVA4ShWezlLlOH9sMnFB/a+ddaOErDt6qyg==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj",
+  "projectFilePath": "D:\\Dev\\backend\\poc-dapper-flunt\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dev1\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",

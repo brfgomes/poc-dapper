@@ -5,6 +5,7 @@ using Infra.Factory;
 using Models.Domain;
 using Dapper;
 using Infra.Queries;
+using Models.Domain.Enums;
 
 namespace Infra.Repositories;
 

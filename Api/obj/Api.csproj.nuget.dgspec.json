@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\backend\\poc-dapper\\Api\\Api.csproj": {}
+    "D:\\Dev\\backend\\poc-dapper-flunt\\Api\\Api.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\backend\\poc-dapper\\Api\\Api.csproj": {
+    "D:\\Dev\\backend\\poc-dapper-flunt\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper\\Api\\Api.csproj",
+        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "D:\\Dev\\backend\\poc-dapper\\Api\\Api.csproj",
+        "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\backend\\poc-dapper\\Api\\obj\\",
+        "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt\\Application\\Application.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Application\\Application.csproj"
               },
-              "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt\\Infra\\Infra.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Infra\\Infra.csproj"
               },
-              "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj": {
+    "D:\\Dev\\backend\\poc-dapper-flunt\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj",
+        "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\backend\\poc-dapper\\Application\\obj\\",
+        "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -107,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj"
               }
             }
           }
@@ -153,14 +153,14 @@
         }
       }
     },
-    "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj": {
+    "D:\\Dev\\backend\\poc-dapper-flunt\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj",
+        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "D:\\Dev\\backend\\poc-dapper\\Infra\\Infra.csproj",
+        "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\backend\\poc-dapper\\Infra\\obj\\",
+        "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -175,8 +175,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj": {
-                "projectPath": "D:\\Dev\\backend\\poc-dapper\\Application\\Application.csproj"
+              "D:\\Dev\\backend\\poc-dapper-flunt\\Application\\Application.csproj": {
+                "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Application\\Application.csproj"
               }
             }
           }
@@ -229,14 +229,14 @@
         }
       }
     },
-    "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj": {
+    "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Dev\\backend\\poc-dapper\\Models\\Models.csproj",
+        "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\backend\\poc-dapper\\Models\\obj\\",
+        "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -268,6 +268,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
             "Flunt": {
               "target": "Package",
               "version": "[2.0.5, )"

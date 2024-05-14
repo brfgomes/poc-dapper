@@ -1,5 +1,7 @@
 ﻿using System.Data;
+using Dapper;
 using Microsoft.Extensions.Configuration;
+using Models.Domain.Enums;
 using Npgsql;
 
 namespace Infra.Factory;

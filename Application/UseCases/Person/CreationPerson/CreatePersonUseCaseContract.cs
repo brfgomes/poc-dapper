@@ -4,9 +4,9 @@ using Models.Domain;
 
 namespace Application.UseCases.Person;
 
-public class CreatePersonValidationUseCaseContract : Contract<PersonModel>
+public class CreatePersonUseCaseContract : Contract<CreatePersonRequest>
 {
-    public CreatePersonValidationUseCaseContract(CreatePersonRequest person)
+    public CreatePersonUseCaseContract(CreatePersonRequest person)
     {
         Requires()
             .IsNotNullOrEmpty(person.Name, "Nome vázio ou nulo", "Nome nao pode ser vazio ou nulo.")
@@ -14,5 +14,6 @@ public class CreatePersonValidationUseCaseContract : Contract<PersonModel>
             .IsLowerThan(person.Name.Length, 100, "Nome inválido", "Nome pode ter no máximo 100 caracteres")
             .IsGreaterThan(person.Years, 0, "Idade inválida", "A idade não pode ser menor que 0")
             .IsLowerThan(person.Years, 150, "Idade inválida", "A idade não pode ser superior a 150");
+        
     }
 }

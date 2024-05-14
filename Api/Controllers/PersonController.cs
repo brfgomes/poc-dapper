@@ -7,8 +7,8 @@ namespace Api.Controllers;
 
 public class PersonController : ControllerBase
 {
-    [HttpGet("GetPersons")]
-    public async Task<IActionResult> GetUsers(
+    [HttpGet("person")]
+    public async Task<IActionResult> GetPersons(
         [FromServices] IRepositoriesFactory repositoriesFactory)
     {
         var personRepository = repositoriesFactory.CreatePersonRepository();
@@ -16,8 +16,8 @@ public class PersonController : ControllerBase
         return Ok(result);
     }
     
-    [HttpGet("GetPerson/{idPerson}")]
-    public async Task<IActionResult> GetUsers(
+    [HttpGet("person/{idPerson}")]
+    public async Task<IActionResult> GetPerson(
         [FromServices] IRepositoriesFactory repositoriesFactory,
         string idPerson
         )
@@ -27,10 +27,10 @@ public class PersonController : ControllerBase
         return Ok(result);
     }
     
-    [HttpPost("CreatePerson")]
-    public async Task<IActionResult> GetUsers(
+    [HttpPost("person")]
+    public async Task<IActionResult> CreatePerson(
         [FromServices] IRepositoriesFactory repositoriesFactory,
-        [FromBody] CreatePersonRequest request
+        [FromBody] CreatePersonRequestTeste request
     )
     {
         var personRepository = repositoriesFactory.CreatePersonRepository();

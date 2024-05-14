@@ -10,8 +10,11 @@ public static class PersonQueries
         var sql = @$"
             SELECT 
                 pers_id AS Id,
+                pers_status AS Status,
                 pers_name AS Name,
                 pers_years AS Years,
+                pers_email AS Email,
+                pers_cnpj AS Cnpj,
                 pers_creation_date AS CreationDate
             FROM {table}";
         return new QueryModel(sql, new {});
@@ -21,6 +24,7 @@ public static class PersonQueries
         var sql = @$"
             SELECT 
                 pers_id AS Id,
+                pers_status AS Status,
                 pers_name AS Name,
                 pers_years AS Years,
                 pers_email AS Email,
@@ -36,17 +40,18 @@ public static class PersonQueries
     {
         var sql = @$"
             INSERT INTO persons 
-                (pers_id, pers_name, pers_years, pers_email, pers_cnpj, pers_creation_date)
+                (pers_id, pers_status, pers_name, pers_years, pers_email, pers_cnpj, pers_creation_date)
             VALUES
-                (@Id, @Name, @Years, @Email, @Cnpj ,CURRENT_TIMESTAMP);
+                (@Id, @Status, @Name, @Years, @Email, @Cnpj ,CURRENT_TIMESTAMP);
             ";
         var parameters = new
         {
             Id = Guid.NewGuid(),
             personModel.Name,
+            personModel.Status,
             personModel.Years,
             personModel.Email,
-            personModel.Cnpj
+            Cnpj = personModel.Cnpj.Value
         };
         return new QueryModel(sql, parameters);
     }

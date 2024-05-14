@@ -4,6 +4,7 @@ using Infra.Factory;
 using Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddScoped<SqlFactory>();
 builder.Services.AddTransient<IPersonRepository, PersonRepository>();
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
