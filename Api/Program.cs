@@ -12,6 +12,10 @@ builder.Services.AddTransient<IRepositoriesFactory, RepositoriesFactory>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+// builder.Services.AddControllers(
+//     options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
+// builder.Services.Configure<ApiBehaviorOptions>(options =>
+//     options.SuppressModelStateInvalidFilter = true);
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())

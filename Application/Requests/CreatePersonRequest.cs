@@ -1,25 +1,11 @@
-﻿using System.Text.Json.Serialization;
-using Application.UseCases.Person;
-using Flunt.Notifications;
-using Models.Domain.Enums;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Application.Requests;
-public class CreatePersonRequest : Notifiable<Notification>
+public class CreatePersonRequest(string Name, int Years, string Email, string Cnpj, int Status)
 {
-    public CreatePersonRequest(string name, int years, string email, string cnpj, int status)
-    {
-        Name = name;
-        Years = years;
-        Email = email;
-        Cnpj = cnpj;
-        Status = status;
-        
-        AddNotifications(new CreatePersonUseCaseContract(this));
-    }
-
-    public string Name{ get; private set; }
-    public int Status { get; private set; }
-    public int Years { get; private set; }
-    public string Email { get; private set; }
-    public string Cnpj { get; private set; }
+    public string Name { get; init; } = Name;
+    public int Years { get; init; } = Years;
+    public string Email { get; init; } = Email;
+    public string Cnpj { get; init; } = Cnpj;
+    public int Status { get; init; } = Status;
 }

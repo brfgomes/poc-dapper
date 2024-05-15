@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers;
 
+[ApiController]
 public class PersonController : ControllerBase
 {
     [HttpGet("person")]
@@ -23,14 +24,25 @@ public class PersonController : ControllerBase
         )
     {
         var personRepository = repositoriesFactory.CreatePersonRepository();
-        var result = await GetPersonUseCase.Execute(personRepository, new GetPersonRequest(idPerson));
+        var result = await GetPersonUseCase.Execute(personRepository, new GetPersonRequest(new Guid(idPerson)));
+        return Ok(result);
+    }
+    
+    [HttpPost("person/teste")]
+    public async Task<IActionResult> GetPerson(
+        [FromServices] IRepositoriesFactory repositoriesFactory,
+        [FromBody] GetPersonRequest idPerson
+    )
+    {
+        var personRepository = repositoriesFactory.CreatePersonRepository();
+        var result = await GetPersonUseCase.Execute(personRepository, idPerson);
         return Ok(result);
     }
     
     [HttpPost("person")]
     public async Task<IActionResult> CreatePerson(
         [FromServices] IRepositoriesFactory repositoriesFactory,
-        [FromBody] CreatePersonRequestTeste request
+        [FromBody] CreatePersonRequest request
     )
     {
         var personRepository = repositoriesFactory.CreatePersonRepository();

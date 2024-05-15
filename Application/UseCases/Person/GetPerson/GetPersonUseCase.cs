@@ -11,7 +11,7 @@ public static class GetPersonUseCase
     {
         //validacoes aqui
         var isSuccess = true;
-        var getPersonResult = await personRepository.GetPerson(request.idPerson);
+        var getPersonResult = await personRepository.GetPerson(request.idPerson.ToString());
         return new GenericResponse<PersonDTO>(isSuccess, getPersonResult, null);
     }
 }

@@ -1,3 +1,3 @@
 ﻿namespace Application.Requests;
 
-public record GetPersonRequest(string idPerson);
+public record GetPersonRequest(Guid idPerson);

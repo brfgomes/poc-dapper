@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "K39HEffx+bqdLgIkAwG1yyPPjEl7FoYCUDohkIZ2DiNU82na2IJnVA4ShWezlLlOH9sMnFB/a+ddaOErDt6qyg==",
+  "dgSpecHash": "6QnM14DprAiVj21XPiNl3InV9amS/DrULcLx5eNixWUkJn/GkeCYSy8aSfiEnHzSvkdldZ0n0eainpWwOH62ow==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\backend\\poc-dapper-flunt\\Infra\\Infra.csproj",
+  "projectFilePath": "D:\\Dev\\backend\\poc-dapper-fluent\\Infra\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dev1\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
-    "C:\\Users\\dev1\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.9.0.0-preview.3.24172.9.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

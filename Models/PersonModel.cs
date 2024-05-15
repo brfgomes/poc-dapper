@@ -1,11 +1,9 @@
-﻿using Flunt.Notifications;
-using Models.Domain.Contracts;
-using Models.Domain.Enums;
+﻿using Models.Domain.Enums;
 using Models.Domain.ValueObjects;
 
 namespace Models.Domain;
 
-public class PersonModel : Notifiable<Notification>
+public class PersonModel
 {
     public PersonModel(Guid id, EStatus status, string name, int years, string email, Cnpj cnpj, DateTime creationDate) 
     {
@@ -16,9 +14,6 @@ public class PersonModel : Notifiable<Notification>
         Email = email;
         Cnpj = cnpj;
         CreationDate = creationDate;
-        
-        AddNotifications(Cnpj.Notifications);
-        AddNotifications(new CreatePersonContract(this));
     }
 
     public Guid Id { get; private set; }

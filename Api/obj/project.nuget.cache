@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EqBVIiBghaqm+F3S9R0VrQupCMb/lujTF30lVKnWVInzpo402an6Ual8SUYMN1zWpu3f/nviKEegPV3d5mNvuA==",
+  "dgSpecHash": "A/0Khx1kmmJreRExO7SchRu1XFXXGVZBB8GQBuLhRBdNplzqlAWRi1XHrhwsSCT76mH0/kaOd+t9xfYRuNC0WA==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\backend\\poc-dapper-flunt\\Api\\Api.csproj",
+  "projectFilePath": "D:\\Dev\\backend\\poc-dapper-fluent\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dev1\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
-    "C:\\Users\\dev1\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\dev1\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\dev1\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.9.0.0-preview.3.24172.9.nupkg.sha512",

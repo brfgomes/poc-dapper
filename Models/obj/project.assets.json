@@ -15,13 +15,17 @@
           }
         }
       },
-      "Flunt/2.0.5": {
+      "FluentValidation/11.9.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Flunt.dll": {}
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Flunt.dll": {}
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -48,24 +52,36 @@
         "readme.md"
       ]
     },
-    "Flunt/2.0.5": {
-      "sha512": "CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
+    "FluentValidation/11.9.1": {
+      "sha512": "C+PqISSMdlOZZJx0Hx25atW32tv4vbpsaiQB+PLjK+ZGLzOFuHl1fUJ3Lny77mIZ31ZtYtNG0JgUjxa3wwLsWg==",
       "type": "package",
-      "path": "flunt/2.0.5",
+      "path": "fluentvalidation/11.9.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "flunt.2.0.5.nupkg.sha512",
-        "flunt.nuspec",
-        "icon.png",
-        "lib/netstandard2.0/Flunt.dll"
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Dapper >= 2.1.35",
-      "Flunt >= 2.0.5"
+      "FluentValidation >= 11.9.1"
     ]
   },
   "packageFolders": {
@@ -74,11 +90,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\Dev\\backend\\poc-dapper-fluent\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\Models.csproj",
+      "projectPath": "D:\\Dev\\backend\\poc-dapper-fluent\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\backend\\poc-dapper-flunt\\Models\\obj\\",
+      "outputPath": "D:\\Dev\\backend\\poc-dapper-fluent\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dev1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -114,9 +130,9 @@
             "target": "Package",
             "version": "[2.1.35, )"
           },
-          "Flunt": {
+          "FluentValidation": {
             "target": "Package",
-            "version": "[2.0.5, )"
+            "version": "[11.9.1, )"
           }
         },
         "imports": [

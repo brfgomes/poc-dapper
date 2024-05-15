@@ -1,16 +1,12 @@
 ﻿using System.Text.RegularExpressions;
-using Flunt.Notifications;
-using Models.Domain.Contracts;
 
 namespace Models.Domain.ValueObjects;
 
-public class Cnpj : Notifiable<Notification>
+public class Cnpj
 {
     public Cnpj(string value)
     {
         Value = value;
-        
-        AddNotifications(new CnpjContract(this));
     }
 
     public string Value { get; private set; }
